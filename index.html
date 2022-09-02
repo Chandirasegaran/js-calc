@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segar Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i" />
+    <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/seven-segment">
+
+
+</head>
+
+<body>
+    <div id="maindiv">
+        <h1>Calculator</h1>
+        <div id="display">
+            <input type="text" name="answer" id="disans">
+        </div>
+
+        <div id="btndiv">
+
+            <input type="button" value="7" name="7" id="btn" onclick="docal('7')">
+            <input type="button" value="8" name="8" id="btn" onclick="docal('8')">
+            <input type="button" value="9" name="9" id="btn" onclick="docal('9')">
+            <input type="button" value="/" name="/" id="btn" onclick="docal('/')">
+
+            <input type="button" value="4" name="4" id="btn" onclick="docal('4')">
+            <input type="button" value="5" name="5" id="btn" onclick="docal('5')">
+            <input type="button" value="6" name="6" id="btn" onclick="docal('6')">
+            <input type="button" value="*" name="*" id="btn" onclick="docal('*')">
+
+            <input type="button" value="1" name="3" id="btn" onclick="docal('1')">
+            <input type="button" value="2" name="2" id="btn" onclick="docal('2')">
+            <input type="button" value="3" name="1" id="btn" onclick="docal('3')">
+            <input type="button" value="-" name="-" id="btn" onclick="docal('-')">
+
+            <input type="button" value="0" name="0" id="btn" onclick="docal('0')">
+            <input type="button" value="C" name="C" id="btn" onclick="clearScr()">
+            <input type="button" value="=" name="=" id="btn" onclick="solve()">
+            <input type="button" value="+" name="+" id="btn" onclick="docal('+')">
+
+        </div>
+        <div id="footer"><h2>© Chandirasegaran </h2></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>

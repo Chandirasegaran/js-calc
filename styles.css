@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    background-color: rgb(226, 119, 119);
+    min-width: 574px;
+    min-height: 574px;
+}
+
+#maindiv {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(219, 168, 168);
+    border-color: rgb(136, 0, 255);
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(106, 121, 218);
+    color: white;
+    text-decoration: dotted;
+    font-family: Google Sans;
+    border-radius: 5px;
+}
+
+#display {
+    padding: 20px 30px;
+    border-color: black;
+}
+
+#disans {
+    padding: 12px;
+    border-color: blueviolet;
+    width: 360px;
+    text-align: right;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.30);
+    font-family: Seven Segment;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#btn {
+    background-color: #007bff;
+    border-radius: 5%;
+    border-color: purple;
+    margin: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Google Sans;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.30);
+}
+
+#btn:hover {
+    color: #ff3300;
+    background-color: rgb(234, 179, 179);
+}
+
+#btndiv {
+    display: inline-grid;
+    grid-template-columns: repeat(4, 100px);
+}
+
+#eqlbtn {
+    margin: 5px;
+    padding: 15px 77px;
+    border-color: purple;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #007bff;
+    border-radius: 5%;
+    font-family: Google Sans;
+}
+#footer{
+    background-color: rgb(242, 122, 122);
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Google Sans;
+    margin-top: 40px;
+    margin-bottom: 0%;
+    padding:0.1px;
+    border-radius: 5px;
+}
